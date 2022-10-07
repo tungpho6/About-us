@@ -1,0 +1,141 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;  
+
+}
+.introduce-to-us-header{
+color: rgb(113, 186, 250);  
+display: flex;
+flex-direction: row;
+align-items: center;
+border-width: 1px;
+border-style: solid;
+box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.15);
+height: 100px;
+}
+.input-bar{
+margin-left: 60px;
+border-radius: 20px;
+border-width: 0.1px;
+width: 208px;
+height: 30px;
+}
+.input-bar-container{
+position: relative;
+}
+.Search-button{
+position: absolute;
+left: 169px;
+border-radius: 20px;
+background-color: rgb(235, 255, 162);
+color: rgb(46, 209, 249);
+border-width: 0.1px;
+width: 100px ;
+height: 31px;
+cursor: pointer;
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+.Search-button:hover{
+background-color:rgb(46, 209, 249) ;
+color:rgb(235, 255, 162) ;
+}
+.side-bar-container{
+position: fixed;
+left: 0;
+top: 101px;
+bottom: 0;
+border-width: 1px;
+border-style: solid;
+align-content: center;
+background-color: rgb(255, 255, 157);
+}
+.side-bar-container{
+display: flex;
+flex-direction: column;
+width: 50px;
+}
+.hamburger-menu{
+width: 20px;
+height: 20px;  
+}
+.Task-button,.Task-button1,.Task-button2,.Task-button3{
+height: 40px;
+border: none;
+transition: width 5s;
+background-color: rgb(255, 255, 157);
+
+}
+.Task-link{
+text-decoration: none;
+color: black;
+}
+.Task-button:hover{
+background-color: yellow;
+border-width: 1px;
+border-style: solid;
+border-color: green;
+}
+.Task-button1:hover{
+background-color: orange;
+border-width: 1px;
+border-style: solid;
+border-color: yellow;
+width: 200px;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+}
+.Task-button2:hover{
+background-color: green;
+border-width: 1px;
+border-style: solid;
+border-color: lightgreen;
+width: 200px;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+}
+.Task-button3:hover{
+  background-color: greenyellow;
+  border-width: 1px;
+border-style: solid;
+border-color: lightpink;
+width: 200px;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+}
+.introduce-to-us-header-body{
+position: absolute;
+top: 300px;
+left: 100px;
+right: 90px;
+bottom: 100px;
+display: flex ;
+flex-direction: row;
+border-width: 1px;
+border-style: solid;
+}
+.avatar{
+width: 100px;
+height: 50px;
+border-radius: 50%;
+margin-top: 20px;
+margin-left: 40px;
+margin-bottom: 20px;
+}
+.box-1{
+display: flex;
+flex-direction: column;  
+border-right-style: solid;
+border-right-width:1px ;
+width: 200px;
+background-color: gray;
+}
+.descriptin-box{
+margin-left: 30px;  
+font-style: italic;
+}
+
+
+
+
+
