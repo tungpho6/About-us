@@ -154,3 +154,30 @@ padding-left: 10px;
 .img-avatar{
   padding-left: 20px;
 }
+.footer-container{
+  background-color: rgb(96, 154, 204);	
+  }
+  .footer-container{
+  display: flex;
+  flex-direction: row;	
+  height: 200px;
+  position: relative;
+  top: 500px;
+  }
+  .Directions{
+  font-size: 20px;	
+  }
+  .footer-middle-section{
+  width: 400px;	
+  }
+  .logo-footer{
+  width: 150px;	
+  padding-top: 20px;
+}
+.footer-last-section{
+width: 200px;	
+}
+.linked{
+  text-decoration: none ;
+  color: white;
+}
